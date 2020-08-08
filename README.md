@@ -1,5 +1,9 @@
 # An agnostic RRule PHP helper to manage recurrences
 
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/vincenzoraco/recurrence.svg?style=flat-square)](https://packagist.org/packages/vincenzoraco/recurrence)
+[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/vincenzoraco/recurrence/Tests?label=tests)](https://github.com/vincenzoraco/recurrence/actions?query=workflow%3ATests+branch%3Amaster)
+[![Total Downloads](https://img.shields.io/packagist/dt/vincenzoraco/recurrence.svg?style=flat-square)](https://packagist.org/packages/vincenzoraco/recurrence)
+
 This package aims to help manage recurrences using the standard [RRule](https://tools.ietf.org/html/rfc5545).
 
 Please note that you need to use [rlanvin/php-rrule](https://github.com/rlanvin/php-rrule) to work with this package.
