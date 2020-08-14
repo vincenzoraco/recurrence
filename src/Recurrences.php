@@ -2,11 +2,9 @@
 
 namespace VincenzoRaco\Recurrence;
 
-use Tightenco\Collect\Support\Collection;
-
 class Recurrences
 {
-    private Collection $recurrences;
+    private $recurrences;
 
     public function __construct(array $recurrences)
     {
