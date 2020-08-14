@@ -3,17 +3,15 @@
 namespace VincenzoRaco\Recurrence;
 
 use Carbon\Carbon;
-use DateTime;
 use RRule\RRule;
-use Tightenco\Collect\Support\Collection;
 
 class Recurrence
 {
     private RRule $rule;
 
-    private Collection $occurrences;
+    private $occurrences;
 
-    private DateTime $now;
+    private Carbon $now;
 
     private string $carbonFormat;
 
