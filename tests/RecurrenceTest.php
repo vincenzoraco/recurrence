@@ -19,6 +19,15 @@ it('can retrieve the next occurrence', function () {
     );
 });
 
+it('it returns null if it does not have a next occurrence', function () {
+    $recurrence = new Recurrence(generateRRule([
+        'dtstart' => Carbon::now()->subYear()->format('Y-m-d H:i:s'),
+        'count' => 1,
+    ]));
+
+    assertNull($recurrence->nextOccurrence());
+});
+
 it('can verify if it occurs today', function () {
     $recurrence = new Recurrence(generateRRule());
 
